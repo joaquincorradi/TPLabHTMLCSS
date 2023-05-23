@@ -1,0 +1,23 @@
+#multimedia {
+  text-align: center;
+}
+
+iframe.seccion3 {
+  float: left;
+  margin: 2rem;
+  border: solid 0.125rem grey;
+  border-radius: 0.3rem;
+  padding: 0.4rem;
+}
+
+p.seccion3 {
+  margin: 1rem;
+  border: solid 0.125rem grey;
+  border-radius: 0.3rem;
+  padding: 5rem;
+}
+
+.seccion4 {
+  text-align: center;
+  margin: 1.5rem;
+}

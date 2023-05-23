@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Contacto</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/typography/typography.css" rel="stylesheet" />
+    <link href="assets/css/contacto.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img id="logo" src="assets/img/logo.png" alt="logo" height="50" />
+      <h1 id="titulo">Marcas de lujo</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="multimedia.html">Multimedia</a></li>
+      </ul>
+    </nav>
+
+    <hr id="barra" />
+
+    <h2 id="contacto">Formulario de contacto</h2>
+
+    <section class="formulario">
+      <form action=" ">
+        <label class="nombre" for="nombre">Nombre:</label>
+        <input
+          class="nombre"
+          type="text"
+          name="nombre"
+          placeholder="Joaquin"
+          required
+        />
+        <br />
+        <label class="dni" for="dni">DNI:</label>
+        <input
+          class="dni"
+          type="number"
+          name="dni"
+          placeholder="44000000"
+          min="1000000"
+          max="70000000"
+          required
+        />
+        <br />
+        <label class="email" for="email">E-mail:</label>
+        <input
+          class="email"
+          type="email"
+          name="email"
+          placeholder="me@me.com"
+          required
+        />
+        <br />
+        <label class="edad" for="edad">Edad:</label>
+        <input
+          class="edad"
+          type="number"
+          name="edad"
+          placeholder="20"
+          min="1"
+          max="99"
+        />
+        <br />
+        <div class="pais">
+          <label for="pais">Pais</label>
+          <select name="pais">
+            <option selected disabled>Seleccione una opcion</option>
+            <option value="argentina">Argentina</option>
+            <option value="chile">Chile</option>
+            <option value="brasil">Brasil</option>
+            <option value="mexico">Mexico</option>
+          </select>
+        </div>
+        <br />
+        <div class="idioma">
+          <label for="idioma">Idioma</label>
+          <input type="checkbox" name="idioma" value="ingles" />
+          <label>Ingles</label>
+          <input type="checkbox" name="idioma" value="espanol" />
+          <label for="espanol">Espanol</label>
+          <input type="checkbox" name="idioma" value="italiano" />
+          <label for="italiano">Italiano</label>
+        </div>
+        <br />
+        <button id="boton" type="submit">Enviar</button>
+      </form>
+    </section>
+  </body>
+</html>
